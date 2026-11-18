@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema base de ventana; la UI real la define Compose (ui/theme). -->
+    <style name="Theme.ScanX" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/scanx_background</item>
+        <item name="android:statusBarColor">@color/scanx_background</item>
+        <item name="android:navigationBarColor">@color/scanx_background</item>
+    </style>
+</resources>
